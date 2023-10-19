@@ -47,8 +47,8 @@ with CustomObjectScope({'relu6': relu6,'DepthwiseConv2D': DepthwiseConv2D, 'Bili
 # plot_model(model, to_file=model_name+'.png')
 
 # training
-batch_size = 2
-epochs = 2000
+batch_size = 4
+epochs = 1000
 learning_rate = 1e-4
 loss = 'binary_crossentropy'
 
